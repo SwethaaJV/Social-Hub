@@ -1,0 +1,42 @@
+.Preview-Layout{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+.Preview-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:65%;
+    height: 500px;
+}
+.Preview-space{
+    width: 100%;
+}
+.Preview-Card{
+    width: 100%;
+}
+.Preview-image{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+.Preview-Delete-btn{
+    color: rgb(252, 252, 252);
+    background-color: rgb(243, 0, 0);
+}
+.Preview-Buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.Preview-Button-align{
+    margin-left: 10px;
+}
+.Back-btn{
+    background-color: rgb(221, 221, 221);
+    color: grey;
+}
+.Loading{
+    align-items: center;
+}

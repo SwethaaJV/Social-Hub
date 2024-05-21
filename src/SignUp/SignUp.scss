@@ -1,0 +1,11 @@
+@import '../SignIn/SignIn.scss'; 
+
+.FirstName{
+    display: inline-block;
+    width: calc(50% - 8px);
+}
+.LastName{
+    display: inline-block;
+    width: calc(50% - 8px);
+    margin: 0 auto 0 16px;
+}

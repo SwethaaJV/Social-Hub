@@ -1,0 +1,27 @@
+.post-layout{
+    margin: 30px;
+    height: 100vh;
+}
+.post-search{
+    width: 150px;
+    margin-right: 10px;
+}
+.post-heading{
+    margin: 0px;
+}
+.post-header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.post-table{
+    margin-top: 50px;
+}
+.Post-delete-btn-danger{
+    margin-left: 10px;
+    background-color: rgb(243, 0, 0);
+    color: #ffffff;
+}
+.post-name-cell{
+    cursor: pointer;
+}

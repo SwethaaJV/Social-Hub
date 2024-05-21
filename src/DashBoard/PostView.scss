@@ -1,0 +1,49 @@
+.Post-view{
+    margin-left: 20px;
+    // border: 1px solid black;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.profile-view-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.Profile-info{
+    display: flex;
+    align-items: center;
+}
+.Profile-text{
+    margin: 0px;
+    margin-left: 10px;
+}
+.post-view-image{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.post-comments{
+    width: 300px;
+}
+.Skeleton-Avatar{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.Skeleton-Image{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 500px !important;
+    height: 250px !important;
+}
+.Skeleton-Content{
+    margin-bottom: 20px;
+}
+.Skeleton-Input{
+    width: 100px !important;
+}
+.Skeleton-Comment{
+    width: 400px !important;
+}

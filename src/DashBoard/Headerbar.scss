@@ -1,0 +1,66 @@
+@mixin size($width,$height){
+    width: $width;
+    height: $height;
+}
+.header{
+    height:80px;
+    background-color: rgb(0, 10, 10);
+}
+.background{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+}
+.header-space {
+    width: 100%;
+}
+.App-logo{
+    margin: 0;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.list li {
+    margin-right: 30px;
+    color: rgb(216, 215, 215);
+    height: 32px; 
+    line-height: 30px;
+}
+a.active{
+    background-color:  rgb(68, 68, 68);
+    border-radius: 5px;
+    padding: 7px;
+}
+.UserName{
+    margin: 15px 10px 0 auto;
+}
+.profile-icon {
+    margin-top: 20px;
+}  
+.profile-icon .ant-btn {
+    @include size(30px,30px);
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.profile-button img {
+    @include size(30px,30px);
+    object-fit: cover;
+    border-radius: 5px; 
+}
+.menu-item-icon {
+    @include size(25px,20px);
+    margin-right: 10px;
+}
+.update-Input{
+    background-color: rgb(223, 223, 223);
+} 
+.list a{
+    color: rgb(255, 255, 255);
+}
+.content-Layout{
+    height: 100vh;
+}

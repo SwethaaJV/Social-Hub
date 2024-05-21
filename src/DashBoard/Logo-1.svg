@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="24px" viewBox="0 0 88 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="88" height="24"></rect>
+        <path d="M9.31466551,16.2704298 L4.69859812,1.48465088 C4.42286169,0.601442041 3.60503643,0 2.67977417,0 C1.55358505,0 0.624922033,0.882546095 0.567588141,2.00729337 L0.00445055461,13.0590428 C-0.0155216112,13.4515562 0.0318262878,13.8446298 0.144471028,14.221174 L2.65028918,22.5977769 C2.86834736,23.326718 3.53896488,23.8260651 4.29980113,23.8260651 L6.62909762,23.8260651 C7.3784843,23.8260651 8.0418274,23.3413523 8.26948428,22.6273473 L9.3052816,19.3787712 C9.62746191,18.3681967 9.63073365,17.2829412 9.31466551,16.2704298 Z" id="path-3"></path>
+        <filter x="-41.9%" y="-16.8%" width="183.8%" height="133.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-4" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.904166996   0 0 0 0 0.892865002   0 0 0 0 0.892865002  0 0 0 0.400000006 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="44.9308165%" y1="44.2609765%" x2="59.4120617%" y2="55.1003997%" id="linearGradient-5">
+            <stop stop-color="#000000" stop-opacity="0.200000003" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="91.1458015%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M9.31466551,16.2704298 L4.69859812,1.48465088 C4.42286169,0.601442041 3.60503643,0 2.67977417,0 C1.55358505,0 0.624922033,0.882546095 0.567588141,2.00729337 L0.00445055461,13.0590428 C-0.0155216112,13.4515562 0.0318262878,13.8446298 0.144471028,14.221174 L2.65028918,22.5977769 C2.86834736,23.326718 3.53896488,23.8260651 4.29980113,23.8260651 L6.62909762,23.8260651 C7.3784843,23.8260651 8.0418274,23.3413523 8.26948428,22.6273473 L9.3052816,19.3787712 C9.62746191,18.3681967 9.63073365,17.2829412 9.31466551,16.2704298 Z" id="path-6"></path>
+        <filter x="-41.9%" y="-16.8%" width="183.8%" height="133.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-4" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.904166996   0 0 0 0 0.892865002   0 0 0 0 0.892865002  0 0 0 0.400000006 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Posts---New" transform="translate(-100, -26)">
+            <g id="Left" transform="translate(100, 18)">
+                <g id="Logo" transform="translate(0, 8)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip" fill-rule="nonzero"></g>
+                    <g id="Container" mask="url(#mask-2)">
+                        <g transform="translate(0.7678, 0)">
+                            <text id="Logo" fill="#FFFFFF" fill-rule="nonzero" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="20" letter-spacing="-0.2">
+                                <tspan x="43.1321701" y="21">Logo</tspan>
+                            </text>
+                            <g id="icon" fill-rule="evenodd" stroke-width="1" fill="none">
+                                <path d="M25.6886467,1.19525679 L32.234913,21.5778623 C32.5918295,22.6892015 31.7628548,23.8260651 30.5956452,23.8260651 L25.7819226,23.8260651 C25.0317611,23.8260651 24.367944,23.3403617 24.1409327,22.6254098 L17.6690901,2.24278831 C17.3165641,1.13256392 18.1452373,0 19.3100796,0 L24.0493793,0 C24.7974317,0 25.4599138,0.48302947 25.6886467,1.19525679 Z" id="Vector" fill="#EF305E" fill-rule="nonzero"></path>
+                                <g id="Group" transform="translate(10.1045, 0)" fill-rule="nonzero">
+                                    <g id="Vector">
+                                        <use fill="#F4F4F4" xlink:href="#path-3"></use>
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    </g>
+                                    <g id="Vector">
+                                        <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                    </g>
+                                </g>
+                                <path d="M8.12820347,0 L12.8692688,0 C14.030237,0 14.8584375,1.12553918 14.5130568,2.23393407 L8.10775838,22.7904355 C7.88358804,23.5099069 7.21757612,24 6.46397121,24 L1.72293235,24 C0.561972722,24 -0.266224763,22.8744571 0.079145622,21.766045 L6.48441711,1.20954276 C6.7086305,0.490075647 7.3746416,0 8.12820347,0 Z" id="Vector" fill="#EF305E" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

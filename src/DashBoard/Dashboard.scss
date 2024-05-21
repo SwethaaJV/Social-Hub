@@ -1,0 +1,60 @@
+@mixin margin{
+    margin: 0;
+}
+@mixin dimension($width,$height){
+    width: $width;
+    height: $height;
+}
+.Post-view-layout{
+    display: flex;
+    margin: 20px 0 0 30px;
+    height: fit-content;
+}
+.sidebar{
+    @include dimension(25%, 630px);
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto; 
+}
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.published-blogs{
+    margin-bottom: 20px;
+}
+.post-search{
+    margin-left: auto;
+}
+.list-with-image {
+    @include margin;
+    list-style: none;
+    padding: 0;
+} 
+.list-with-image li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.list-item-text{
+    margin-right: auto;
+}
+.post-card-image{
+    @include dimension(100px, 70px);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.image-title {
+    @include margin;
+}
+.image-body {
+    @include margin;
+}
+.post-content{
+    @include dimension(70%, 630px);
+}
+.list-items{
+    cursor: pointer;
+}
